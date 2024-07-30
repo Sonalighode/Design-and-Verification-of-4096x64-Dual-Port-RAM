@@ -12,12 +12,17 @@
 
 <h2> Block Diagram </h2>
 
-![image](https://github.com/user-attachments/assets/3bfd564a-2a2b-409f-b17e-1dca9b2276e0)
+![image](https://github.com/user-attachments/assets/14f5c9a4-c82a-4f7e-97b7-aba5b1b341c1)
 
 1. **clk (Clock)**: Synchronizes the operations of the RAM.
-2. **data_in (Data Input)**: Carries the 64-bit data to be written into the RAM.
-3. **wr_addr (Write Address)**: Specifies the 12-bit address location for writing data.
-4. **rd_addr (Read Address)**: Specifies the 12-bit address location for reading data.
-5. **write (Write Enable)**: Enables write operations when asserted.
-6. **read (Read Enable)**: Enables read operations when asserted.
-7. **data_out (Data Output)**: Carries the 64-bit data read from the RAM.
+2. **rst (Reset):** Resets the RAM to a known initial state.
+3. **data_in (Data Input)**: Carries the 64-bit data to be written into the RAM.
+4. **wr_addr (Write Address)**: Specifies the 12-bit address location for writing data.
+5. **rd_addr (Read Address)**: Specifies the 12-bit address location for reading data.
+6. **write (Write Enable)**: Enables write operations when asserted.
+7. **read (Read Enable)**: Enables read operations when asserted.
+8. **data_out (Data Output)**: Carries the 64-bit data read from the RAM.
+
+<h2> Simulation waveform </h2>
+
+
