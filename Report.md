@@ -27,6 +27,31 @@
 
 ![image](https://github.com/user-attachments/assets/10b8ced4-7d06-4982-be2f-71bdde5d3994)
 
+<h2> Verification Plan </h2>
+
+1. **Transaction:**
+   - Base class: Contained with read address, write address, input data, read and write control signals.
+   - Extended classes: 3 classes for 3 different test cases applied for achieving greater coverage.
+
+2. **Transactors:**
+   - Generator: For generating random transactions.
+   - Driver: Read and write drivers to drive address, input data and control signals for read and write operations respectively.
+   - Monitor: Read and write monitor to collect the read adress and output data and forward to reference model and scoreboard.
+   - Reference model: Functionality depicting the duv written using System Verilog.
+   - Scoreboard: Comparing the transations recieved from reference model and read monitor and give the comparison results. Consists of covergroup as well for creating bins over read address and output data over a varied range.
+
+<h2> Outputs </h2>
+
+<h3> Test case 1 </h3>
+
+<h3> Test cse 2 </h3>
+
+<h3> Test case 3 </h3>
+
+<h2> Conclusion </h2>
+
+Successfully caried out the design and verification steps for the dual port RAM.
+
 
 
 
