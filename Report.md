@@ -25,4 +25,8 @@
 
 <h2> Simulation waveform </h2>
 
+![image](https://github.com/user-attachments/assets/10b8ced4-7d06-4982-be2f-71bdde5d3994)
+
+
+
 
