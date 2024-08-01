@@ -44,13 +44,17 @@
 
 <h3> Test case 1 </h3>
 
+![image](https://github.com/user-attachments/assets/411d2068-c30d-44af-9ee0-2ca46282984a)
+
+![image](https://github.com/user-attachments/assets/a9595b32-54ba-4f89-b249-75378c27cfc0)
+
 <h3> Test cse 2 </h3>
 
 <h3> Test case 3 </h3>
 
 <h2> Conclusion </h2>
 
-Successfully caried out the design and verification steps for the dual port RAM.
+Successfully caried out the design and verification steps for the dual port RAM using Mentor Graphics tools: Modelsim, Questasim.
 
 
 
